@@ -1,0 +1,59 @@
+<DOCTYPE html>
+<!-- 문서의 유형을 정의합니다.-->
+ <html lang = "ko">
+<!-- 문서의 루트 요소로 HTML 문서의 시작을 알려요.
+ language의 약자이고, 한국어를 설명ㅎ바니다. -->
+    <head>
+        <!-- 헤드태그는 문서의 정보를 나타내는 태그입니다.
+         문서의 정보는 메타 태그를 이용하여 표현합니다.-->
+        <meta charset="UTF-8">
+        <!-- 한국어같은 문자를 위해서는 UTF-8을 써야 함-->
+         <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+         <!-- 반응형 웹 디자인을 위한 메타 태그-->
+          <title>회원 등록</title>
+          <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--화면에 뿌려줄 데이터를 삽입을 합니다.(글,이미지)-->
+        <div id ="wrapper" class ="wrapper">
+            <form id = "registrationForm" class = "registrationForm">
+                <h2>회원등록</h2>
+                <!-- 문자가 일반 문자들 보다 일반적으로 더 큽니다.-->
+                <div class = "inputGroup">
+                    <label for ="nickname">사용자 이름</label>
+                    <!-- 라벨 태그 => input 태그하고 거의 같이 쓰입니다.-->
+                    <input type = "text" id = "nickname" class = "nicknameInput">
+                    <!-- 글자들을 입력할 수 있게 해주는 입력창-->
+                    <span class = "helperText">알림</span>
+                    <!-- 글자를 화면에 띄워줍니다.-->
+                </div>
+                <div class = "inputGroup">
+                    <label for ="userEmail">이메일 주소</label>
+                    <input type = "email" id = "email" class = "emailInput">
+                    <span class = "helperText">알림</span>
+                </div>
+                <div class = "inputGroup">
+                    <label for ="userPassword">비밀번호</label>
+                    <input type = "password" id = "userPassword" class = "passwordInput">
+                    <span class = "helperText">알림</span>
+                </div>
+                <div class = "inputGroup">
+                    <label for ="confirmPassword">비밀번호 확인</label>
+                    <input type = "password" id = "confirmPassword" class = "confirmPasswordInput">
+                    <span class = "helperText">알림</span>
+                </div>
+                <div class = "inputGroup">
+                    <label for ="phone">휴대폰 번호</label>
+                    <input type = "tel" id = "phone" class = "phoneInput">
+                    <span class = "helperText">예:010-1234-5678</span>
+                </div>
+                <button type = "submit">등록 완료</button>
+            </form>
+            <!--form 태그는 웹 브라우저(프론트엔드)에서 웹 서버(백엔드)로 데이터를 넘기고자 할 때
+            //input 태그와 같이 작성 해주는 태그 입니다.-->
+        </div>
+        <!-- div 태그는 div 태그 안에 또 다른 태그나 값을 넣기 전 까지는
+         영역과 공간을 가지지 않습니다.-->
+    </body>
+
+ </html>
