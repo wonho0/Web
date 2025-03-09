@@ -10,4 +10,4 @@
 자바스크립트 사용 X, index.html과 style.css에만 내용 포함
 
 ### 결과 
-![Image](https://github.com/user-attachments/assets/a589d591-3ee5-4559-b59a-cd0feeaaf82c)
+![Image](https://github.com/user-attachments/assets/921e47cd-60aa-40c8-99ed-a7551415b55f)
